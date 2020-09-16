@@ -1,0 +1,302 @@
+$color1:#e8ded2;
+$color2:#a3d2ca;
+$color3:#5eaaa8;
+$color4:#056676;
+body{
+  background:$color2 ;
+}
+nav{
+  color: white;
+}
+.navbar{
+  background: #056676;
+  opacity: 0.9;
+  color: white;
+  box-shadow: 2px 2px 5px #a3d2ca;
+
+  .nav-item{
+    font-size: 1.4rem;
+    padding-right: 20px;
+    .nav-link{
+      color:#e8ded2;
+    }
+  }
+  .nav-item:last-child{
+    padding-right: 0;
+  }
+}
+#showcase{
+
+  .inner{
+    height: 700px;
+  }
+
+  .bg-img{
+
+    background: url('../img/img2.jpg');
+    background-size: cover;
+  }
+  .card{
+    margin-top: 500px;
+
+
+    background: $color1;
+    .card-footer{
+      background: $color4;
+      .fa{
+        color: $color1;
+        font-size: 30px;
+      }
+    }
+  }
+
+}
+#aboutme{
+  margin-top: 300px;
+  .aboutMe{
+    background: $color4;
+    font-size: 30px;
+    color: $color1;
+    padding: 6px;
+  }
+  hr{
+    border-width: 3px;
+    margin-top: 3px;
+    background: $color4;
+  }
+}
+#skills{
+
+  h3{
+    color: $color4;
+  }
+  .myskills{
+    background: $color4;
+    font-size: 30px;
+    color: $color1;
+    padding: 6px;
+
+  }
+  hr{
+    border-width: 3px;
+    margin-top: 3px;
+    background: $color4;
+  }
+  .persentage{
+    display: block;
+  }
+  ul{
+    list-style: none;
+    margin-left: 0;
+  }
+  .skill   li{
+      margin: 20px 0;
+      padding-left: 0;
+    }
+    .skill li:first-child{
+      margin: 0;
+    }
+.bar{
+      background: $color4;
+      display: block;
+      height: 20px;
+      border: 1px solid rgba(0,0,0,0.3);
+      border-radius: 3px;
+      overflow: hidden;box-shadow: 0 0 10px $color3;
+    }
+.bar span{
+  height: 10px;
+  float: left;
+  background: $color1;
+}
+.html{
+  width: 90%;
+  animation: html 2s;
+}
+.css{
+  width: 50%;
+  animation: css 2s;
+}
+.javaScript{
+  width: 40%;
+  animation: javaScript 2s;
+}
+.dotnet{
+  width: 70%;
+  animation: dotnet 2s;
+}
+img{
+  border-radius: 10px;
+  height: 270px;
+}
+}
+
+#testimonial{
+  .testimonial{
+    background: $color4;
+    font-size: 30px;
+    color: $color1;
+    padding: 6px;
+
+  }
+  hr{
+    border-width: 3px;
+    margin-top: 3px;
+    background: $color4;
+  }
+  .card-bg{
+    background: $color4;
+    border-radius: 10px;
+  }
+
+
+//  height: 500px;
+  .container{
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .carousel-indicators{
+    left: 0;
+    top: auto;
+    bottom: -90px;
+  }
+  .carousel-indicators li{
+    //  background: #000;
+    background: #fff;
+      border-radius: 50%;
+      width: 15px;
+      height:2px;
+    }
+    .carousel-indicators .active{
+      //background: deeppink;
+      background: $color4;
+    }
+    a{
+      text-decoration: none;
+    }
+    a:hover,a:focus{
+      text-decoration: none;
+    }
+    .img-text{
+      margin-top: 70px;
+      margin-bottom: 50px;
+      width: 100%;
+      height: 350px;
+      display: block;
+      border: 1px solid #fff;
+      text-align: center;
+      padding: 20% 5%;
+      background: $color1;
+      color: $color4;
+      border-radius: 15px;
+
+    }
+    .img-text h2{
+      font-size: 30px;
+      font-family: big john;
+    }
+    .img-text h3{
+      font-size: 25px;
+      font-family: big john;
+    }
+    .img-text img{
+      margin-top: -150px;
+      height: 100px;
+      width: 100px;
+    }
+}
+#contact{
+  .contact{
+    background: $color4;
+    font-size: 30px;
+    color: $color1;
+    padding: 6px;
+
+  }
+  hr{
+    border-width: 3px;
+    margin-top: 3px;
+    background: $color4;
+  }
+  .btn{
+    background: $color4;
+    color: $color1;
+  }
+
+
+  input,textarea{
+    background: $color1;
+  }
+}
+#footer-main{
+  .footer-bg{
+    background: $color4;
+    color: $color1;
+    a{
+      color: $color2;
+      font-size: 30px;
+    }
+  }
+}
+#mywork{
+  .mywork{
+    background: $color4;
+    font-size: 30px;
+    color: $color1;
+    padding: 6px;
+
+  }
+  hr{
+    border-width: 3px;
+    margin-top: 3px;
+    background: $color4;
+  }
+ .card{
+   img{
+     height: 300px;
+
+   }
+   .card-body{
+     background: $color1;
+   }
+   .btn{
+     background: $color4;
+     color: $color1;
+   }
+ }
+}
+
+
+
+@keyframes html{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+@keyframes css{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  }
+}
+@keyframes javaScript{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 40%;
+  }
+}
+@keyframes dotnet{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
